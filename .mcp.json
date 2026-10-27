@@ -5,7 +5,15 @@
       "url": "https://mcp.setmore.com/mcp",
       "oauth": {
         "clientId": "353a7-01aa651905f2025aa162",
-        "callbackPort": 3118
+        "callbackPort": 3118,
+        "scopes": [
+          "setmore.apis-internal.fullaccess",
+          "awapis.streams.read",
+          "awapis.users.read",
+          "awapis.chat.users.push",
+          "awapis.chat.streams.push",
+          "awapis.fullaccess"
+        ]
       }
     }
   }
