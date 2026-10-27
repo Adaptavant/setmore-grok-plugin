@@ -10,8 +10,7 @@
           "awapis.streams.read",
           "awapis.users.read",
           "awapis.chat.users.push",
-          "awapis.chat.streams.push",
-          "awapis.fullaccess"
+          "awapis.chat.streams.push"
         ]
       }
     }
