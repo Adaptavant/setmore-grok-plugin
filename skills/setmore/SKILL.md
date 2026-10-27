@@ -1,3 +1,8 @@
+---
+name: setmore
+description: Load before using any Setmore MCP tool — covers looking up ids/availability before acting and confirming before cancelling, rescheduling, or deleting anything.
+---
+
 # Setmore
 
 Guidance for using the Setmore MCP tools in Grok Build.

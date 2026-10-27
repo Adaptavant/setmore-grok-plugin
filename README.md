@@ -7,7 +7,7 @@ Connects [Grok Build](https://x.ai/) to your [Setmore](https://www.setmore.com) 
 - Book, reschedule, and cancel appointments
 - Check staff availability and working hours
 - Look up and manage customers
-- Manage services and settings
+- Manage services and settings (account owners and admins only)
 - Send and read Setmore Connect messages
 
 ## How it works
