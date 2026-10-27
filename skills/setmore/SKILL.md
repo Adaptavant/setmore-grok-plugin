@@ -26,11 +26,13 @@ How to use each tool (looking people up, timezones, sensible defaults, confirmat
 | Time off | `block_time` |
 | A link for someone to pick a time | `create_sharable_slot` |
 | Customer details | `search_customers`, `get_customer`, `create_customer`, `update_customer` |
+| What was booked, rescheduled or cancelled since last check | `get_booking_events` |
 | Numbers and plan usage | `booking_stats`, `get_billing_usage` |
-| Services and settings (owners and admins only) | `create_service`, `update_service`, `assign_service_staff`, `delete_service`, `get_settings`, `update_booking_settings`, `update_notification_settings`, `update_working_hours` |
-| Connect team messages | `get_unread_messages`, `read_messages`, `search_messages`, `send_message`, `react_to_message`, `mark_as_read`, `list_channels`, `create_collab` |
+| Services and settings (owners and admins only) | `create_service`, `update_service`, `assign_service_staff`, `delete_service`, `get_settings`, `update_booking_settings`, `update_notification_settings`, `update_working_hours`, `list_integrations` |
+| Connect team messages | `get_unread_messages`, `read_messages`, `search_messages`, `send_message`, `react_to_message`, `mark_as_read`, `mark_as_unread`, `get_connect_events`, `get_presence`, `list_channels`, `get_collab_members`, `add_collab_members`, `create_collab` |
+| Realtime and push updates (only when user asks) | `list_event_subscriptions`, `create_event_subscription`, `enable_event_subscription`, `delete_event_subscription` |
 
-If `search_tool` doesn't find something listed here, the account doesn't have it. Say so rather than guessing a tool name.
+If `search_tool` doesn't find something listed here, try the server's `find_new_tools` with the capability name, then `call_new_tool` if it's read-only. Only if that doesn't help, tell the user the capability isn't available. Never guess tool names.
 
 ## Ground rules
 
