@@ -1,7 +1,7 @@
 {
   "name": "setmore",
   "version": "1.0.0",
-  "description": "Setmore scheduling for Grok Build via the hosted Setmore MCP server. Book, reschedule, and manage appointments, customers, staff, and Setmore Connect messaging.",
+  "description": "Setmore scheduling for Grok Build via the hosted Setmore MCP server. Book, reschedule, and manage appointments, customers, and staff, and send and read Setmore Connect messages.",
   "author": {
     "name": "Setmore",
     "url": "https://www.setmore.com"
