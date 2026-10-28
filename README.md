@@ -12,7 +12,7 @@ Connects [Grok Build](https://x.ai/) to your [Setmore](https://www.setmore.com) 
 
 ## How it works
 
-This plugin points Grok at Setmore's hosted MCP server (`https://mcp.setmore.com/mcp`) over HTTP. No local server or install is required — see [`.mcp.json`](./.mcp.json). You'll be prompted to sign in to your Setmore account the first time a tool is used.
+This plugin points Grok at Setmore's hosted MCP server (`https://mcp.setmore.com/mcp`) over HTTP. No local server or install is required — see [`.mcp.json`](./.mcp.json). Export `SETMORE_OAUTH_CLIENT_SECRET` (the Fullauth client secret) before starting Grok. You'll be prompted to sign in to your Setmore account the first time a tool is used.
 
 ## Marketplace listing metadata
 

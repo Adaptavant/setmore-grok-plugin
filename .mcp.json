@@ -3,14 +3,18 @@
     "setmore": {
       "type": "http",
       "url": "https://mcp.setmore.com/mcp",
+      "oauth_client_id": "353a7-b8c06c4ffeb86851d9a9",
+      "oauth_client_secret_env_var": "SETMORE_OAUTH_CLIENT_SECRET",
+      "oauth_scopes": [
+        "setmore.apis-internal.fullaccess",
+        "awapis.fullaccess"
+      ],
       "oauth": {
-        "clientId": "353a7-b8c06c4ffeb86851d9a9",
         "callbackPort": 3118,
+        "clientSecretEnvVar": "SETMORE_OAUTH_CLIENT_SECRET",
         "scopes": [
-          "awapis.streams.read",
-          "awapis.users.read",
-          "awapis.chat.users.push",
-          "awapis.chat.streams.push"
+          "setmore.apis-internal.fullaccess",
+          "awapis.fullaccess"
         ]
       }
     }
