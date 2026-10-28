@@ -1,0 +1,20 @@
+{
+  "name": "setmore",
+  "version": "1.0.0",
+  "description": "Setmore scheduling for Grok Build via the hosted Setmore MCP server. Book, reschedule, and manage appointments, customers, and staff, and send and read Setmore Connect messages.",
+  "author": {
+    "name": "Setmore",
+    "url": "https://www.setmore.com"
+  },
+  "homepage": "https://www.setmore.com",
+  "repository": "https://github.com/Adaptavant/setmore-grok-plugin",
+  "license": "MIT",
+  "keywords": [
+    "setmore",
+    "setmore scheduling",
+    "setmore appointments",
+    "setmore booking",
+    "setmore calendar",
+    "setmore connect"
+  ]
+}
